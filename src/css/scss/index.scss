@@ -1,6 +1,37 @@
-header{
-	height: 100px;
+body
+{
+	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    color: #fff;
 }
-body{
-display: flex;
+header
+{
+    height: 100px;
+    background: #000000;
+}
+.main-wrap
+{
+	display: flex;
+    background: #ccc;
+    flex: 1;
+    height: 100%;
+    justify-content:center;
+    align-items:stretch;
+	.left-bar{
+		width: 300px;
+		background: #f90;
+
+	}
+	.right-content{
+		flex:1;
+		background: #ddd;
+	}
+}
+footer
+{
+    height: 100px;
+
+    background: #000;
 }
