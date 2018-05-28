@@ -32,6 +32,7 @@ $ npm run build //用于生产环境
 │   ├── css/            # css文件存放目录（less ,scss,css）
 │   ├── js/             # js文件存放目录
 │   ├── images/         # 图片文件
+│   ├── statci/         # 静态资源
 ├── .babelrc            # Babel 转码配置
 ├── .gitignore          # （配置）需被 Git 忽略的文件（夹）
 ├── gulpfile.js         #   gulpfile基础配置文件
